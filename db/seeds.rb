@@ -7,12 +7,12 @@
 #   Character.create(name: "Luke", movie: movies.first)
 Coin.create!(
     description: "Bitcoin",
-    acronym: "BTC"
+    acronym: "BTC",
     url_image: "https://styles.redditmedia.com/t5_2x4rw/styles/communityIcon_l2st2oji3am11.png"
 )
 
 Coin.create!(
     description: "Ethereum",
-    acronym: "ETH"
+    acronym: "ETH",
     url_image: "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Ethereum-ETH-icon.png"
 )
