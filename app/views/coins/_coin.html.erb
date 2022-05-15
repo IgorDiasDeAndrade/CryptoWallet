@@ -14,5 +14,11 @@
       <td><strong>Imagem:</strong></td>
       <td><%= image_tag coin.url_image, size: "25x25"%></td>
     </tr>
+
+    <tr>
+      <td><strong>Tipo de mineração</strong></td>
+      <td><%= coin.mining_type.description%></td>
+    </tr>
+
   </div>
 </table>

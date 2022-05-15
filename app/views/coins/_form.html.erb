@@ -27,6 +27,11 @@
   </div>
 
   <div>
+    <%= form.label :mining_type_id, style: "display: block" %>
+    <%= form.collection_select :mining_type_id, MiningType.all, :id, :description %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
