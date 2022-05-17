@@ -4,7 +4,7 @@ namespace :dev do
     if Rails.env.development?
       spinner = TTY::Spinner.new("[:spinner] Loading ...", format: :pulse_2)
       spinner.auto_spin # Automatic animation with default interval
-      %x(rails db:drop db:create db:migrate dev:add_miningtypes)
+      %x(rails db:drop db:create db:migrate dev:add_miningt)
       spinner.stop("Done!") # Stop animation
     else
       puts "Você não está em ambiente de desenvolvimento!"
