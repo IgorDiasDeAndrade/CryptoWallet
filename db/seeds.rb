@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+=begin
 coins = [
     {description: "Bitcoin",
     acronym: "BTC",
@@ -18,6 +19,9 @@ coins = [
 
 #O each abaixo em confunto com o metodo find_or_create_by irá verificar a variável o array de hashes coin
 #para saber se cada elemento do array já está criado pelo ACTIVE RECORD, se não estiver o método criará no BD
+
+
+
 coins.each do |coin|
     Coin.find_or_create_by!(coin)
 end
@@ -32,3 +36,5 @@ miningtypes = [
 miningtypes.each do |miningtype|
     MiningType.find_or_create_by!(miningtype)
 end
+
+=end
