@@ -1,0 +1,13 @@
+pt-BR:
+  links:
+    edit: "Editar"
+    show: "Mostrar esta moeda"
+    delete: "Apagar"
+    new: "Adicionar nova moeda"
+    walletback: "Voltar para carteira"
+    walleteditor: "Editor de Carteira"
+    miningtypeeditor: "Adicionar tipos de mineração"
+    home: "Início"
+    miningtypesback: "Voltar para tipos de mineração"
+    showminingtype: "Mostrar"
+    newminingtype: "Novo tipo de mineração"

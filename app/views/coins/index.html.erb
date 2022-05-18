@@ -6,13 +6,13 @@
   <% @coins.each do |coin| %>
     <%= render coin %>
     
-      <%= link_to "Mostrar essa moeda", coin %>
+      <%= link_to t('links.show'), coin %>
       <p> </p>
     
   <% end %>
 </div>
 
-<%= link_to "Nova moeda", new_coin_path %>
+<%= link_to t('links.new'), new_coin_path %>
 <p>
-<a href='http://[::1]:3000/welcome/index'>Início</a>
+<%= link_to t('links.home'), welcome_index_path %>
 </p>

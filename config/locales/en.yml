@@ -31,3 +31,15 @@
 
 en:
   hello: "Hello world"
+  links:
+    edit: "Edit"
+    show: "Show this Coin"
+    delete: "Delete"
+    new: "Add new Coin"
+    walletback: "Back to wallet"
+    walleteditor: "Wallet Editor"
+    miningtypeeditor: "Add Mining types"
+    home: "Home"
+    miningtypesback: "Back to Mining Types"
+    showminingtype: "Show"
+    newminingtype: "New mining type"
