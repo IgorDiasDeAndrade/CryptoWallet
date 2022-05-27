@@ -1,0 +1,24 @@
+{
+  "name": "cryptowallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IgorDiasDeAndrade/CryptoWallet",
+  "author": "igordiasdeandrade <igor.d.andrade@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.3",
+    "esbuild": "^0.14.39",
+    "jquery": "^3.6.0",
+    "notify-js-legacy": "^0.4.1",
+    "sass": "^1.52.1"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.12"
+  }
+}

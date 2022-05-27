@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../javascript/controllers/index.js"],
+  "sourcesContent": ["// Import and register all your controllers from the importmap under controllers/*\n\n//import { application } from \"controllers/application\"\n\n// Eager load all controllers defined in the import map under controllers/**/*_controller\n// import { eagerLoadControllersFrom } from \"@hotwired/stimulus-loading\"\neagerLoadControllersFrom(\"controllers\", application)\n\n// Lazy load controllers as they appear in the DOM (remember not to preload controllers in import map!)\n// import { lazyLoadControllersFrom } from \"@hotwired/stimulus-loading\"\n// lazyLoadControllersFrom(\"controllers\", application)\n"],
+  "mappings": ";;AAMA,2BAAyB,eAAe,WAAW;",
+  "names": []
+}

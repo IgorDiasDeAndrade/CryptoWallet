@@ -1,12 +1,18 @@
 <div id="<%= dom_id mining_type %>">
-  <p>
-    <strong><%= MiningType.human_attribute_name(:description) %></strong>
-    <%= mining_type.description %>
-  </p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+      <th><%= MiningType.human_attribute_name(:description) %></th>
+      <th><%= MiningType.human_attribute_name(:acronym) %></th>
+      </tr>
+    </thead>
+    </tbody>
+    <tr>
+      <td><%= mining_type.description %></td>
+      <td><%= mining_type.acronym %></td>
+      <td><%= link_to t('links.showminingtype'), mining_type %></td>
+      </tr>
+    </tbody>
 
-  <p>
-    <strong><%= MiningType.human_attribute_name(:acronym) %></strong>
-    <%= mining_type.acronym %>
-  </p>
-
+  </table>
 </div>

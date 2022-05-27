@@ -3,13 +3,12 @@
 <h1>Mining types</h1>
 
 <div id="mining_types">
-  <% @mining_types.each do |mining_type| %>
-    <%= render mining_type %>
-    <p>
-      <%= link_to t('links.showminingtype'), mining_type %>
-    </p>
-  <% end %>
+  
+    <% @mining_types.each do |mining_type| %>
+      <%= render mining_type %>
+    <% end %>
+  
 </div>
 
-<%= link_to t('links.newminingtype'), new_mining_type_path %>
-<p><%= link_to t('links.home'), welcome_index_path %></p>
+<%= link_to t('links.newminingtype'), new_mining_type_path %> |
+<%= link_to t('links.home'), welcome_index_path %>

@@ -1,20 +1,13 @@
+<div class="jumbotron">
 
-<p><%= link_to 'Português', root_path(locale: 'pt-BR')%></p>
-<p><%= link_to 'English', root_path(locale: 'en')%></p>
+  <h1 class="display-4">Seja Bem-Vindo!</h1>
+  <p class="lead">Olá, me chamo Igor e estou desenvolvendo esta aplicação Web, como trabalho prático do curso de Ruby on Rails da Udemy.</p>
+  <hr class="my-4">
+  <p>O objetivo dessa aplicação será um simulador de carteira de criptomoedas, onde o usuário poderá: Adicionar, excluir e editar sua carteira, com preço de entrada, a aplicação irá buscar o preço atual e retornará os lucros ou perdas do usuário.</p>
+  <p class="lead">
+  <%= render "menu" %>
+  </p>
 
-<h1>Seja Bem-Vindo!</h1>
-
-<p>Ao meu projeto de Ruby on Rails! </p>
-
-<p>Olá, me chamo Igor e estou desenvolvendo 
-esta aplicação Web, como trabalho prático do curso
-de Ruby on Rails da Udemy.</p>
-
-<p>O objetivo dessa aplicação será um simulador de carteira de criptomoedas, onde o usuário poderá: Adicionar, excluir e editar sua carteira, com preço de entrada, a aplicação irá buscar o preço atual e retornará os lucros ou perdas do usuário.</p>
-
-<%= render "menu" %>
-
-
+</div>
 <p> <strong>Data de acesso:</strong> <%= I18n.l(Date.today) %></p>
 <p>Idioma padrão: <strong><%= t('actual_locale') %></strong></p>
-<p> Nome passado como parametro: <%= @nome%>
