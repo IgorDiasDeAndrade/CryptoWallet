@@ -1,11 +1,14 @@
 <p style="color: green"><%= notice %></p>
-<h1>Moedas</h1>
 
-<div id="coins">
+
+<div class="h100 p-5 bg-light rounded-3">
+<h1><%= t('links.coins')%></h1>
+  <div id="coins">
   
-  <% @coins.each do |coin| %>
-    <%= render coin %>
-  <% end %>
+    <% @coins.each do |coin| %>
+      <%= render coin %>
+    <% end %>
+  </div>
   
 </div>
 

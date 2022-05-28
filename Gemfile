@@ -52,8 +52,7 @@ gem 'coffee-rails'
 
 gem 'uglifier'
 
-gem 'bootstrap-sass'
-gem 'sass-rails'
+gem 'bootstrap'
 
 # Use Sass to process CSS
 gem "sassc-rails"
